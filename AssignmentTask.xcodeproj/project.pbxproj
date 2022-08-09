@@ -79,19 +79,51 @@
 		522BC55D28A27EF6005790BE /* AssignmentTask */ = {
 			isa = PBXGroup;
 			children = (
-				522BC57928A295C5005790BE /* DatabaseHelper.swift */,
-				522BC55E28A27EF6005790BE /* AppDelegate.swift */,
-				522BC56028A27EF6005790BE /* SceneDelegate.swift */,
-				522BC56228A27EF6005790BE /* ViewController.swift */,
+				522BC57E28A2A681005790BE /* ViewControllers */,
+				522BC57D28A2A668005790BE /* BaseClass */,
+				522BC57C28A2A652005790BE /* Delegates */,
+				522BC57B28A2A638005790BE /* DatabaseHelper */,
 				522BC57628A29526005790BE /* AssignmentTask.xcdatamodeld */,
-				522BC57428A282BA005790BE /* ExtensionViewController.swift */,
-				522BC57228A2805A005790BE /* BaseVC.swift */,
 				522BC56428A27EF6005790BE /* Main.storyboard */,
 				522BC56728A27EF7005790BE /* Assets.xcassets */,
 				522BC56928A27EF7005790BE /* LaunchScreen.storyboard */,
 				522BC56C28A27EF7005790BE /* Info.plist */,
 			);
 			path = AssignmentTask;
+			sourceTree = "<group>";
+		};
+		522BC57B28A2A638005790BE /* DatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				522BC57928A295C5005790BE /* DatabaseHelper.swift */,
+			);
+			path = DatabaseHelper;
+			sourceTree = "<group>";
+		};
+		522BC57C28A2A652005790BE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				522BC55E28A27EF6005790BE /* AppDelegate.swift */,
+				522BC56028A27EF6005790BE /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		522BC57D28A2A668005790BE /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				522BC57228A2805A005790BE /* BaseVC.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		522BC57E28A2A681005790BE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				522BC56228A27EF6005790BE /* ViewController.swift */,
+				522BC57428A282BA005790BE /* ExtensionViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		7147BAB4EAEC29F69E3372A9 /* Pods */ = {
